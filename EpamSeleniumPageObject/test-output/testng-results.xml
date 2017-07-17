@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="38664" started-at="2017-07-17T09:48:32Z" finished-at="2017-07-17T09:49:11Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="38664" started-at="2017-07-17T09:48:32Z" finished-at="2017-07-17T09:49:11Z">
+      <class name="com.epam.lab.pageob.GmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.pageob.GmailTest@6b09bb57]" name="setUp" is-config="true" duration-ms="6414" started-at="2017-07-17T12:48:32Z" finished-at="2017-07-17T12:48:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.lab.pageob.GmailTest@6b09bb57]" name="login" duration-ms="4745" started-at="2017-07-17T12:48:39Z" finished-at="2017-07-17T12:48:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="markMessagesToImportant()[pri:0, instance:com.epam.lab.pageob.GmailTest@6b09bb57]" name="markMessagesToImportant" duration-ms="15017" started-at="2017-07-17T12:48:43Z" depends-on-methods="com.epam.lab.pageob.GmailTest.login" finished-at="2017-07-17T12:48:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markMessagesToImportant -->
+        <test-method status="PASS" signature="chekIfMessagesWhereMarkedImportant()[pri:0, instance:com.epam.lab.pageob.GmailTest@6b09bb57]" name="chekIfMessagesWhereMarkedImportant" duration-ms="4461" started-at="2017-07-17T12:48:58Z" depends-on-methods="com.epam.lab.pageob.GmailTest.markMessagesToImportant" finished-at="2017-07-17T12:49:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekIfMessagesWhereMarkedImportant -->
+        <test-method status="PASS" signature="markRecentlyAdedToImportant()[pri:0, instance:com.epam.lab.pageob.GmailTest@6b09bb57]" name="markRecentlyAdedToImportant" duration-ms="1807" started-at="2017-07-17T12:49:03Z" depends-on-methods="com.epam.lab.pageob.GmailTest.chekIfMessagesWhereMarkedImportant" finished-at="2017-07-17T12:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markRecentlyAdedToImportant -->
+        <test-method status="PASS" signature="deleteMarcked()[pri:0, instance:com.epam.lab.pageob.GmailTest@6b09bb57]" name="deleteMarcked" duration-ms="265" started-at="2017-07-17T12:49:05Z" depends-on-methods="com.epam.lab.pageob.GmailTest.markRecentlyAdedToImportant" finished-at="2017-07-17T12:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMarcked -->
+        <test-method status="PASS" signature="chekIfDeleted()[pri:0, instance:com.epam.lab.pageob.GmailTest@6b09bb57]" name="chekIfDeleted" duration-ms="5239" started-at="2017-07-17T12:49:05Z" depends-on-methods="com.epam.lab.pageob.GmailTest.deleteMarcked" finished-at="2017-07-17T12:49:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekIfDeleted -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.epam.lab.pageob.GmailTest@6b09bb57]" name="close" is-config="true" duration-ms="667" started-at="2017-07-17T12:49:10Z" finished-at="2017-07-17T12:49:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.epam.lab.pageob.GmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
