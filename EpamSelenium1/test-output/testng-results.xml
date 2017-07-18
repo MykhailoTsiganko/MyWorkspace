@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="27017" started-at="2017-07-13T14:12:27Z" finished-at="2017-07-13T14:12:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="27017" started-at="2017-07-13T14:12:27Z" finished-at="2017-07-13T14:12:54Z">
+      <class name="com.epam.lab.sel1.GmailTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.sel1.GmailTest@370736d9]" name="setUp" is-config="true" duration-ms="4580" started-at="2017-07-13T17:12:27Z" finished-at="2017-07-13T17:12:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="login()[pri:1, instance:com.epam.lab.sel1.GmailTest@370736d9]" name="login" duration-ms="1341" started-at="2017-07-13T17:12:32Z" finished-at="2017-07-13T17:12:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="markImportant()[pri:2, instance:com.epam.lab.sel1.GmailTest@370736d9]" name="markImportant" duration-ms="6088" started-at="2017-07-13T17:12:33Z" finished-at="2017-07-13T17:12:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markImportant -->
+        <test-method status="PASS" signature="verifyImportent()[pri:3, instance:com.epam.lab.sel1.GmailTest@370736d9]" name="verifyImportent" duration-ms="5164" started-at="2017-07-13T17:12:39Z" finished-at="2017-07-13T17:12:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportent -->
+        <test-method status="PASS" signature="markRecentImportant()[pri:4, instance:com.epam.lab.sel1.GmailTest@370736d9]" name="markRecentImportant" duration-ms="2338" started-at="2017-07-13T17:12:45Z" finished-at="2017-07-13T17:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- markRecentImportant -->
+        <test-method status="PASS" signature="deleteMarckedElements()[pri:5, instance:com.epam.lab.sel1.GmailTest@370736d9]" name="deleteMarckedElements" duration-ms="159" started-at="2017-07-13T17:12:47Z" finished-at="2017-07-13T17:12:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteMarckedElements -->
+        <test-method status="PASS" signature="chekIfDeleted()[pri:6, instance:com.epam.lab.sel1.GmailTest@370736d9]" name="chekIfDeleted" duration-ms="6371" started-at="2017-07-13T17:12:47Z" finished-at="2017-07-13T17:12:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- chekIfDeleted -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.epam.lab.sel1.GmailTest@370736d9]" name="close" is-config="true" duration-ms="938" started-at="2017-07-13T17:12:53Z" finished-at="2017-07-13T17:12:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.epam.lab.sel1.GmailTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
