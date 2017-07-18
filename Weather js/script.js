@@ -14,7 +14,6 @@ $('#searchButton').click(function(){
         });
 
         result.fail(function(){
-            console.log(result.responseText);
         })
 
         
@@ -28,11 +27,17 @@ $('#searchButton').click(function(){
 function displayWeather(result) {
     var wData = JSON.parse(result);
     $('.data').remove();
-    $('body').append("<div class='data'></div>");
-    $('.data').append
-    .append("<div class='prop'>" + wData.main.temp + "</div>")
-    .append("<div class='prop'>" + "<img src='http://openweathermap.org/img/w/" + wData.weather[0].icon + ".png' title='image decription'>")
-    .append("<div class='prop'>" + wData.name + " " +wData.sys.country+ "</div>")
-    .append("<div class='prop'>" );
+    $('.content').append("<div class='data'></div>");
+    $('.data').append("<div class='prop'><span class='big'>" + wData.main.temp   +  "&deg</span></div>")
+    .append("<div class='prop'>" + "<img src='http://openweathermap.org/img/w/" + wData.weather[0].icon + ".png' title='image decription'>");
+    $(".data").append("<div  id='box'></div>")
+    $('.data').append("<div class='prop2'><b>" + wData.name + "(" + wData.sys.country + ")</b></div>");
+    $("#box").append("<div class='metrix'>" + "Wind:" + wData.wind.speed + " m/s " + wData.wind.deg + "&deg</div");
+    $("#box").append("<div class='metrix'>" + "Pressure:" + wData.main.pressure + " mm</div");
+
+
+ 
+  
+    
     
 }
