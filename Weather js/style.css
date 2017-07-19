@@ -2,8 +2,10 @@
     float: left;
     align-content: center;
     align-items: center;
-    width: 30%;
+    width: 20%;
     height: 300px;
+    margin: 0 5%;
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
 }
 
 
@@ -27,14 +29,13 @@
 }
  
 #box {
-    width: 100%;
-    float: left;
+    width: auto;
 }
 
 .prop {
     display: block;
     float: left;
-    width: 10%;
+    width: auto;
     text-align: center;
     padding: 1
     em 1em;
@@ -45,12 +46,10 @@ div{
     border-color: black;
 }
 
-.prop2{
-    align-content: center;
-}
+
 
 input[type=text], select {
-    width: 20%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -60,7 +59,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-    width: 20%;
+    width: 100%;
     background-color:aqua;
     color: white;
     padding: 14px 20px;
@@ -77,10 +76,18 @@ input[type=submit]:hover {
 
 
 
-       #map {
-           display: inline-block;
-        height: 400px;
-        width: 50%;
-       }
+ #map {
+     border-radius: 1em;
+    display: inline-block;
+    background-color: #f2f2f2;
+    height: 400px;
+    width: 50%;
+    padding: 4em;
+ }
+.location{
+    width: 100%;
+    font-size: 2em;
+
+}
    
 
