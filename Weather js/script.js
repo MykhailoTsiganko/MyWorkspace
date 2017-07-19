@@ -33,11 +33,17 @@ function displayWeather(result) {
     $(".data").append("<div  id='box'></div>")
     $('.data').append("<div class='prop2'><b>" + wData.name + "(" + wData.sys.country + ")</b></div>");
     $("#box").append("<div class='metrix'>" + "Wind:" + wData.wind.speed + " m/s " + wData.wind.deg + "&deg</div");
-    $("#box").append("<div class='metrix'>" + "Pressure:" + wData.main.pressure + " mm</div");
-
-
- 
-  
-    
-    
+    $("#box").append("<div class='metrix'>" + "Pressure:" + wData.main.pressure + " mm</div>");
 }
+
+ function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      } 
