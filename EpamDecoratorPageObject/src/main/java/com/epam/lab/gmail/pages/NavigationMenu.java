@@ -22,10 +22,14 @@ public class NavigationMenu {
 		logger.info("NavigationMenu constructor");
 		PageFactory.initElements(driver, this);
 	}
+	
+	public void clikOnMore() {
+	    logger.info("clikOnMore method");
+	    moreItem.click();
+	}
 
-	public void importent() {
-		logger.info("selectImportent method");
-		moreItem.click();
+	public void clickOnImportant() {
+		logger.info("clickOnImportant method");
 		importantItem.click();
 	}
 

@@ -11,6 +11,5 @@ public class PropertiesLoader {
         Properties p = new Properties(System.getProperties());
         p.load(propFile);
         System.setProperties(p);
-        System.getProperties().list(System.out);
     }
 }

@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="65956" started-at="2017-07-20T20:38:01Z" finished-at="2017-07-20T20:39:07Z">
+  <suite name="Default suite" duration-ms="32601" started-at="2017-07-21T09:27:51Z" finished-at="2017-07-21T09:28:24Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="65956" started-at="2017-07-20T20:38:01Z" finished-at="2017-07-20T20:39:07Z">
+    <test name="Default test" duration-ms="32601" started-at="2017-07-21T09:27:51Z" finished-at="2017-07-21T09:28:24Z">
       <class name="com.epam.lab.gmail.GmailTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="setUp" is-config="true" duration-ms="18837" started-at="2017-07-20T23:38:01Z" finished-at="2017-07-20T23:38:20Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.epam.lab.gmail.GmailTest@13a5fe33]" name="setUp" is-config="true" duration-ms="20" started-at="2017-07-21T12:27:51Z" finished-at="2017-07-21T12:27:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="login()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="login" duration-ms="6643" started-at="2017-07-20T23:38:20Z" finished-at="2017-07-20T23:38:26Z">
+        <test-method status="PASS" signature="markMessagesToImportantAndDelete()[pri:0, instance:com.epam.lab.gmail.GmailTest@13a5fe33]" name="markMessagesToImportantAndDelete" duration-ms="30667" started-at="2017-07-21T12:27:51Z" finished-at="2017-07-21T12:28:22Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- login -->
-        <test-method status="PASS" signature="markMessagesToImportant()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markMessagesToImportant" duration-ms="14906" started-at="2017-07-20T23:38:27Z" depends-on-methods="com.epam.lab.gmail.GmailTest.login" finished-at="2017-07-20T23:38:41Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- markMessagesToImportant -->
-        <test-method status="PASS" signature="chekIfMessagesWhereMarkedImportant()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="chekIfMessagesWhereMarkedImportant" duration-ms="9647" started-at="2017-07-20T23:38:41Z" depends-on-methods="com.epam.lab.gmail.GmailTest.markMessagesToImportant" finished-at="2017-07-20T23:38:51Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chekIfMessagesWhereMarkedImportant -->
-        <test-method status="PASS" signature="markRecentlyAdedToImportant()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="markRecentlyAdedToImportant" duration-ms="771" started-at="2017-07-20T23:38:51Z" depends-on-methods="com.epam.lab.gmail.GmailTest.chekIfMessagesWhereMarkedImportant" finished-at="2017-07-20T23:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- markRecentlyAdedToImportant -->
-        <test-method status="PASS" signature="deleteMarcked()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="deleteMarcked" duration-ms="429" started-at="2017-07-20T23:38:52Z" depends-on-methods="com.epam.lab.gmail.GmailTest.markRecentlyAdedToImportant" finished-at="2017-07-20T23:38:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- deleteMarcked -->
-        <test-method status="PASS" signature="chekIfDeleted()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="chekIfDeleted" duration-ms="11985" started-at="2017-07-20T23:38:52Z" depends-on-methods="com.epam.lab.gmail.GmailTest.deleteMarcked" finished-at="2017-07-20T23:39:04Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- chekIfDeleted -->
-        <test-method status="PASS" signature="close()[pri:0, instance:com.epam.lab.gmail.GmailTest@6b09bb57]" name="close" is-config="true" duration-ms="2604" started-at="2017-07-20T23:39:04Z" finished-at="2017-07-20T23:39:07Z">
+        </test-method> <!-- markMessagesToImportantAndDelete -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.epam.lab.gmail.GmailTest@13a5fe33]" name="close" is-config="true" duration-ms="1893" started-at="2017-07-21T12:28:22Z" finished-at="2017-07-21T12:28:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
