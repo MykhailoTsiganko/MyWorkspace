@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Independent test Suite]">
+  <test name="Independent test(failed)">
+    <classes>
+      <class name="com.epam.lab.gmail.GmailTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="close"/>
+          <include name="markMessagesToImportantAndDelete"/>
+        </methods>
+      </class> <!-- com.epam.lab.gmail.GmailTest -->
+    </classes>
+  </test> <!-- Independent test(failed) -->
+</suite> <!-- Failed suite [Independent test Suite] -->
